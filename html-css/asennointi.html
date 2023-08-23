@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning Items</title>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style2.css" />
+	<style>
+
+        /*////////////////////
+        // Positioning items
+        //////////////////////
+
+        Reset *
+        Display: inline vs block
+        https://www.w3schools.com/cssref/pr_class_display.asp
+
+        Box-sizing
+        https://www.w3schools.com/css/css3_box-sizing.asp
+
+        Using percentages and max-width
+        https://www.w3schools.com/cssref/css_units.asp
+
+        Float and clear
+        https://www.w3schools.com/cssref/pr_class_float.asp
+
+        Flexbox - https://www.w3schools.com/css/css3_flexbox.asp
+
+        Absolute/Relative positioning
+        https://www.w3schools.com/cssref/pr_class_position.asp
+
+        Centering
+        https://www.w3schools.com/css/css_align.asp
+
+        */
+
+        * {
+        }
+
+        body {
+          margin: 0;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            color: aliceblue;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        #red { background-color: red;}
+        #green { background-color: green;}
+        #blue { background-color: blue;}
+        #yellow { background-color: yellow; color: black;}
+        #orange { background-color: orange;}
+
+        .clear { clear: both;}
+
+        /* img */
+        img {
+
+        }
+
+        /* container */
+        .container {
+        }
+
+        /* relative and absolute positioning with blue */
+        #blue {
+        }
+
+        p {
+          color: blue;
+        }
+
+        p {
+          color: red;
+        }
+        #info {
+          color: rgb(223, 223, 44);
+          font-size: 30px;
+        }
+        .vihrea {
+          color: green;
+        }
+        .oranssi {
+          color: orange;
+        }
+        main {
+          background-color: antiquewhite;
+          margin: 40px auto;
+          border: 2px dashed black;
+          padding: 20px;
+          width: 50%;
+        }
+        .mefr {
+          width: 300px;
+          height: auto;
+        }
+
+    </style>
+    </head>
+
+<body>
+  <nav>
+    <div class="box" id="red">Box 1</div>
+    <div class="box" id="green">Box 2</div>
+    <div class="box" id="blue">Box 3</div>
+    <div class="box" id="yellow">Box 4</div>
+    <div class="box" id="orange">Box 5</div>
+  </nav>
+    <!-- Float continues, clearing -->
+<main>
+    <h1>Heading 1</h1><h1>Heading 2</h1>
+
+    <div>BOMBOCLAT</div>
+
+    <p class="vihrea oranssi">
+    <span class="lause"> ipsum dolor sit amet consectetur adipisicing elit.</span> Corporis, quaerat! Perspiciatis tenetur libero quaerat eum labore, cumque voluptas aperiam esse et mollitia, odio rerum harum minima incidunt quasi! Possimus, voluptas.
+    Laborum quidem, maiores sunt ipsa, in molestias facere saepe nam quasi voluptate harum? Ipsam fuga optio enim? Illo molestiae tenetur, perferendis hic deleniti laboriosam nulla sit? Dignissimos laboriosam earum totam.</p>
+    <p id="info" class="vihrea" class="oranssi" style="color: pink;"/>
+    <img scr="https://npr.brightspotcdn.com/dims4/default/67c6173/2147483647/strip/true/crop/1023x912+0+0/resize/880x785!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2F18%2Fc042b647406185b7de55c332432e%2Fmeeko-racoon-01-1024x1024.jpg" alt="raccoon />
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, debitis ea magni velit dolores necessitatibus ad, blanditiis ex, qui rerum nobis suscipit doloremque eum praesentium consequuntur repudiandae officiis eius neque!
+    Inventore, obcaecati. Aperiam quaerat quibusdam quas ad velit animi doloremque in voluptate illo saepe nihil accusantium aliquam expedita veniam error neque dolorem itaque delectus quam ducimus, repellendus facere nulla fugiat.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus culpa quibusdam impedit, cupiditate unde error! Nostrum, enim doloribus fugiat harum, tempore quaerat veritatis cupiditate impedit aperiam earum consectetur totam voluptas.
+    Rerum facere expedita maxime a. Ad perspiciatis harum eligendi, dolores beatae saepe quaerat ducimus culpa magni accusantium ab soluta minus error, corrupti quos distinctio iure quo quis laudantium et explicabo.</p>
+
+    <!-- Responsive images and centering -->
+  </main>
+<footer>Copyright</footer>
+</body>
+</html>
